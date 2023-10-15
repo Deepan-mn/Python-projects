@@ -50,6 +50,7 @@ class InterestRewardsAccount(BankAccount):
         print("\nDeposit Complete...")
         self.get_balance()
 
+
 class SavingsAccount(InterestRewardsAccount):
     def __init__(self, initial_amount, account_name):
         super().__init__(initial_amount,account_name)
